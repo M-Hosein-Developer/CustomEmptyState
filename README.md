@@ -1,11 +1,11 @@
 # Empty State Library
 
-A brief description of your library and its purpose. Explain why it's useful and what problems it solves.
+This library is for using the empty state in the project and you can use it in situations such as internet disconnection and other cases.
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Access to change view Attributes
+- Full development with Kotlin
+- Compatible with all versions
 
 ## Installation
 You can add the library to your project via Gradle:
