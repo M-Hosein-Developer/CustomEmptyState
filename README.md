@@ -121,27 +121,23 @@ app:iconButtonSize="30dp"
 ## Usage Kotlin
 Kotlin Example for Attributes
 
-Visibility of the Empty State UI
+Control visibility
 ```
 customEmptyState.setEmptyStateVisibility(isVisible = true)
 ```
 
-Visibility of the button
 ```
 customEmptyState.setOkButtonVisibility(isVisible = true)
 ```
 
-Visibility of both the image and Lottie animation
 ```
 customEmptyState.setImageAndLottieVisibility(isImageVisible = true, isLottieVisible = false)
 ```
 
-Visibility of the title text
 ```
 customEmptyState.setTitleVisibility(isVisible = true)
 ```
 
-Visibility of the description text
 ```
 customEmptyState.setDescriptionVisibility(isVisible = false)
 ```
@@ -162,6 +158,63 @@ customEmptyState.setTitleAndDescription(
     description = "New Description"
 )
 ```
+
+Controls whether the title text should be a single line or multi-line and max line
+```
+customEmptyState.setTitleSingleLine(singleLine = true)
+```
+
+```
+customEmptyState.setDescriptionSingleLine(singleLine = false)
+```
+
+```
+customEmptyState.setTitleMaxLine(maxLine = 2)
+```
+
+```
+customEmptyState.setDescriptionMaxLine(maxLine = 3)
+```
+
+Sets the text for the Empty State button
+```
+customEmptyState.setTextButton(textButton = "Click Me")
+```
+
+Sets the corner radius for the Empty State button
+```
+customEmptyState.setCornerButton(radius = 8)
+```
+
+Sets the icon for the Empty State button
+```
+customEmptyState.setButtonIcon(icon = R.drawable.ic_icon)
+```
+
+
+Set the text color for views
+```
+customEmptyState.setDescriptionColorAndTitleTextColor(color = R.color.commonColor)
+```
+
+```
+customEmptyState.setTitleTextColor(titleColor = R.color.titleColor)
+```
+
+```
+customEmptyState.setDescriptionTextColor(descriptionColor = R.color.descriptionColor)
+```
+
+```
+customEmptyState.textButtonColor(color = R.color.buttonTextColor)
+```
+
+Set text fon for views
+
+
+
+
+
 
 
 
