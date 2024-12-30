@@ -12,6 +12,7 @@ A brief description of your library and its purpose. Explain why it's useful and
 
 ## Installation
 You can add the library to your project via Gradle:
+
 ```gradle
 allprojects {
     repositories {
@@ -22,6 +23,7 @@ allprojects {
 dependencies {
     implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.0.3'
 }
+"```"
 
 ## Usage
 #XML Example for Title and Description (Single Line/Multiple Line)
