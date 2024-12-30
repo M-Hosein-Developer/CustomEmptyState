@@ -16,6 +16,7 @@ android {
         minSdk = 21
 
         group = "com.github.M-Hosein-Developer"
+        version = "1.0.3"
         
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -30,6 +31,27 @@ android {
             )
         }
     }
+
+    afterEvaluate {
+        publishing {
+            publications {
+                create<MavenPublication>("release") {
+                    from(components["release"])
+
+                    groupId = "com.github.M-Hosein-Developer"
+                    artifactId = "CustomEmptyState"
+                    version = "1.0.3"
+                }
+            }
+
+            repositories {
+                maven {
+                    url = uri("https://jitpack.io")
+                }
+            }
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
