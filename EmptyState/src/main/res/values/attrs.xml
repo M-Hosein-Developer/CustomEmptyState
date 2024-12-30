@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomDialog">
+
+        <!--image-->
+        <attr name="src" format="integer" />
+
+
+        <!--single and max line-->
+        <attr name="titleSingleLine" format="boolean" />
+        <attr name="descSingleLine" format="boolean" />
+        <attr name="titleMaxLine" format="integer" />
+        <attr name="descMaxLine" format="integer" />
+
+
+        <!--text-->
+        <attr name="titleText" format="string" />
+        <attr name="descText" format="string" />
+        <attr name="btnSuccessText" format="string" />
+
+
+        <!--text color-->
+        <attr name="titleTextColor" format="color" />
+        <attr name="descTextColor" format="color" />
+        <attr name="btnSuccessTextColor" format="color" />
+
+
+        <!--font-->
+        <attr name="fontFamily" format="string" />
+
+
+        <!--text size-->
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="descTextSize" format="dimension" />
+        <attr name="btnSuccessTextSize" format="dimension" />
+
+        <!--card-->
+        <attr name="cardRadius" format="dimension" />
+        <attr name="cardElevation" format="dimension" />
+        <attr name="cardBackgroundColor" format="color" />
+
+
+        <!--padding-->
+        <attr name="titlePadding" format="dimension" />
+        <attr name="descPadding" format="dimension" />
+        <attr name="btnSuccessPadding" format="dimension" />
+        <attr name="btnSuccessEndPadding" format="dimension" />
+        <attr name="imgPadding" format="dimension" />
+
+
+        <!--visibility-->
+        <attr name="btnSuccessVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="txtTitleVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="txtDescriptionVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="imgVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr name="mainCustomEmptyStateVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+
+       <!-- style
+        <attr name="titleTextStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="descriptionTextStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="btnTextStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>-->
+
+
+        <!--background src-->
+        <attr name="btnSuccessBackground" format="reference" />
+        <attr name="mainCustomDialogBackground" format="reference" />
+        <attr name="txtTitleBackground" format="reference" />
+        <attr name="txtDescriptionBackground" format="reference" />
+
+
+        <!--lottie-->
+        <attr name="autoPlay_animation" format="boolean"/>
+        <attr name="loop_animation" format="boolean"/>
+        <attr name="rawRes_animation" format="integer"/>
+        <attr name="lottieVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+
+
+        <!--button-->
+        <attr name="buttonCornerRadius" format="dimension"/>
+        <attr name="setIconButton" format="reference"/>
+        <attr name="setIconButtonGravity">
+            <flag name="start" value="0x1"/>
+            <flag name="textStart" value="0x2"/>
+            <flag name="end" value="0x3"/>
+            <flag name="textEnd" value="0x4"/>
+            <flag name="top" value="0x10"/>
+            <flag name="textTop" value="0x20"/>
+        </attr>
+        <attr name="iconButtonSize" format="dimension"/>
+
+
+
+    </declare-styleable>
+
+</resources>
