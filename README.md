@@ -48,14 +48,14 @@ Setting Text for Title, Description, and Button
 ```
 app:titleText="this is title"
 app:descText="this is description"
-app:btnSuccessText="this is button"
+app:btnOkText="this is button"
 ```
 
 Customizing Text Colors
 ```
 app:titleTextColor="@color/blue"
 app:descTextColor="#fff000"
-app:btnSuccessTextColor="@color/white
+app:btnOkTextColor="@color/white
 ```
 
 Setting Custom Font
@@ -67,12 +67,12 @@ Customizing Text Sizes
 ```
 app:titleTextSize="12sp"
 app:descTextSize="20sp"
-app:btnSuccessTextSize="10sp"
+app:btnOkTextSize="10sp"
 ```
 
 Parent View Customization
 ```
-app:cardRadius="20dp"
+app:cardCornerRadius="20dp"
 app:cardElevation="20dp"
 app:cardBackgroundColor="@color/white"
 ```
@@ -81,13 +81,13 @@ Padding Customization
 ```
 app:titlePadding="20dp"
 app:descPadding="20dp"
-app:btnSuccessPadding="20dp"
+app:btnOkPadding="20dp"
 app:imgPadding="20dp"
 ```
 
 Visibility Settings
 ```
-app:btnSuccessVisibility="visible"
+app:btnOkVisibility="visible"
 app:txtTitleVisibility="visible"
 app:txtDescriptionVisibility="visible"
 app:imgVisibility="visible"
@@ -96,7 +96,7 @@ app:mainCustomEmptyStateVisibility="visible"
 
 Background Customization
 ```
-app:btnSuccessBackground="@color/blue"
+app:btnOkBackground="@color/blue"
 app:mainCustomDialogBackground="@color/blue"
 app:txtTitleBackground="@color/blue"
 app:txtDescriptionBackground="@color/blue"
