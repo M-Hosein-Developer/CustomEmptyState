@@ -26,9 +26,8 @@
         android:id="@+id/customEmptyState"
         app:buttonCornerRadius="20dp"
         app:setIconButton="@drawable/ic_android_black_24dp"
-        app:setIconButtonGravity="@raw/error"
         app:lottieVisibility="visible"
-
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

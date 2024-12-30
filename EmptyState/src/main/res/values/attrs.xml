@@ -17,13 +17,13 @@
         <!--text-->
         <attr name="titleText" format="string" />
         <attr name="descText" format="string" />
-        <attr name="btnSuccessText" format="string" />
+        <attr name="btnOkText" format="string" />
 
 
         <!--text color-->
         <attr name="titleTextColor" format="color" />
         <attr name="descTextColor" format="color" />
-        <attr name="btnSuccessTextColor" format="color" />
+        <attr name="btnOkTextColor" format="color" />
 
 
         <!--font-->
@@ -33,7 +33,7 @@
         <!--text size-->
         <attr name="titleTextSize" format="dimension" />
         <attr name="descTextSize" format="dimension" />
-        <attr name="btnSuccessTextSize" format="dimension" />
+        <attr name="btnOkTextSize" format="dimension" />
 
         <!--card-->
         <attr name="cardRadius" format="dimension" />
@@ -44,13 +44,13 @@
         <!--padding-->
         <attr name="titlePadding" format="dimension" />
         <attr name="descPadding" format="dimension" />
-        <attr name="btnSuccessPadding" format="dimension" />
-        <attr name="btnSuccessEndPadding" format="dimension" />
+        <attr name="btnOkPadding" format="dimension" />
+        <attr name="btnOkEndPadding" format="dimension" />
         <attr name="imgPadding" format="dimension" />
 
 
         <!--visibility-->
-        <attr name="btnSuccessVisibility" format="enum">
+        <attr name="btnOkVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
@@ -101,7 +101,7 @@
 
 
         <!--background src-->
-        <attr name="btnSuccessBackground" format="reference" />
+        <attr name="btnOkBackground" format="reference" />
         <attr name="mainCustomDialogBackground" format="reference" />
         <attr name="txtTitleBackground" format="reference" />
         <attr name="txtDescriptionBackground" format="reference" />
