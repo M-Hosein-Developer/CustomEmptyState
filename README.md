@@ -25,3 +25,36 @@ dependencies {
 
 ## Usage
 #XML Example for Title and Description (Single Line/Multiple Line)
+```
+<ir.androidcoder.customdialog.CustomEmptyState
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:titleSingleLine="false"
+    app:descSingleLine="false"
+    app:titleMaxLine="2"
+    app:descMaxLine="3"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+```
+
+#Setting Text for Title, Description, and Button
+```
+app:titleText="this is title"
+app:descText="this is description"
+app:btnSuccessText="this is button"
+```
+
+#Customizing Text Colors
+```
+app:titleTextColor="@color/blue"
+app:descTextColor="#fff000"
+app:btnSuccessTextColor="@color/white
+```
+
+#Setting Custom Font
+```
+app:fontFamily="@font/font_test_dialog"
+```
+
