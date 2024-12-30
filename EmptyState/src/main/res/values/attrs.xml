@@ -110,7 +110,7 @@
         <!--lottie-->
         <attr name="autoPlay_animation" format="boolean"/>
         <attr name="loop_animation" format="boolean"/>
-        <attr name="rawRes_animation" format="integer"/>
+        <attr name="rawRes_animation" format="reference"/>
         <attr name="lottieVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />

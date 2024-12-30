@@ -201,7 +201,7 @@ class CustomEmptyState @JvmOverloads constructor(
     }
 
     //visibility------------------------------------------------------------------------------------
-    fun setDialogVisibility(isVisible: Boolean) = with(binding){
+    fun setEmptyStateVisibility(isVisible: Boolean) = with(binding){
         mainEmptyState.visibility = if (isVisible) View.VISIBLE else View.GONE
     }//tested
 
@@ -224,7 +224,7 @@ class CustomEmptyState @JvmOverloads constructor(
 
 
     //text------------------------------------------------------------------------------------------
-    fun setDialog(title: String , description: String , src : Int) = with(binding){
+    fun setEmptyState(title: String , description: String , src : Int) = with(binding){
         lottieAnimation.visibility = View.GONE
         imgEmptyState.visibility = View.VISIBLE
         imgEmptyState.setImageResource(src)

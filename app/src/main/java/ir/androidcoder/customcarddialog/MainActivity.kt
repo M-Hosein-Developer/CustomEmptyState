@@ -29,16 +29,14 @@ class MainActivity : AppCompatActivity() {
         //font
 //        setFont()
 
-        binding.btn.setOnClickListener {
 
-            binding.customDialog.setButtonAttribute(
+            binding.customEmptyState.setButtonAttribute(
                 radius = 6,
                 icon = R.drawable.ic_android_black_24dp,
                 iconSize = 50,
                 color = R.color.red
             )
 
-        }
 
 
     }
