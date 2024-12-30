@@ -1,6 +1,6 @@
 # Empty State Library
 
-This library is for using the empty state in the project and you can use it in situations such as internet disconnection and other cases.
+This library is for using the empty state in the project and you can use it in situations such as internet disconnection and no data state and other cases.
 
 ## Features
 - Access to change view Attributes
@@ -22,7 +22,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.0.3'
+    implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.1.0'
 }
 ```
 [![](https://jitpack.io/v/M-Hosein-Developer/CustomEmptyState.svg)](https://jitpack.io/#M-Hosein-Developer/CustomEmptyState)
