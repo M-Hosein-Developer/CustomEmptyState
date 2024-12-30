@@ -5,19 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CustomEmptyState Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2196F3;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #FF5722;
+            margin-top: 30px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            color: #333;
+        }
+
+        a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .toc {
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            margin-bottom: 5px;
+        }
+
+        .toc a {
+            color: #4CAF50;
+        }
+    </style>
 </head>
 
 <body>
     <h1>CustomEmptyState Library</h1>
     <p>A simple and customizable library for displaying empty states in Android applications.</p>
 
-    <h2>Setup</h2>
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#xml-usage">XML Usage</a></li>
+            <li><a href="#kotlin-usage">Kotlin Usage</a></li>
+        </ul>
+    </div>
+
+    <h2 id="setup">Setup</h2>
     <pre>
 <code>maven { url 'https://jitpack.io' } 
 implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.0.3'</code>
     </pre>
 
-    <h2>XML Usage</h2>
+    <h2 id="xml-usage">XML Usage</h2>
 
     <h3>Max Line and Single Line Configuration</h3>
     <pre>
@@ -130,7 +205,7 @@ app:iconButtonSize="30dp"
 </code>
     </pre>
 
-    <h2>Kotlin Usage</h2>
+    <h2 id="kotlin-usage">Kotlin Usage</h2>
 
     <h3>Visibility Control</h3>
     <pre>
@@ -252,16 +327,4 @@ customEmptyState.setupLottieAnimation(
     </pre>
 
     <h3>Button Attributes</h3>
-    <pre>
-<code>
-customEmptyState.setButtonAttribute(
-    radius = 6,
-    icon = R.drawable.ic_android_black_24dp,
-    iconSize = 50,
-    color = R.color.red
-)
-</code>
-    </pre>
-</body>
-
-</html>
+    <pre
