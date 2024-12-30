@@ -41,7 +41,7 @@ class CustomEmptyState @JvmOverloads constructor(
             //text
             txtEmptyStateTitle.text = typedArray.getString(R.styleable.CustomDialog_titleText) ?: "Default Title"
             txtEmptyStateDesc.text = typedArray.getString(R.styleable.CustomDialog_descText) ?: "Default Title"
-            btnEmptyStateSuccess.text = typedArray.getString(R.styleable.CustomDialog_btnSuccessText) ?: "Default Title"
+            btnEmptyStateSuccess.text = typedArray.getString(R.styleable.CustomDialog_btnOkText) ?: "Default Title"
 
             //single and max line
             txtEmptyStateTitle.isSingleLine = typedArray.getBoolean(R.styleable.CustomDialog_titleSingleLine, false)
@@ -135,7 +135,7 @@ class CustomEmptyState @JvmOverloads constructor(
 
             //visibility
             btnEmptyStateSuccess.visibility =
-                when (typedArray.getInt(R.styleable.CustomDialog_btnSuccessVisibility, 0)) {
+                when (typedArray.getInt(R.styleable.CustomDialog_btnOkVisibility, 0)) {
                     0 -> View.VISIBLE
                     1 -> View.INVISIBLE
                     2 -> View.GONE
@@ -176,7 +176,7 @@ class CustomEmptyState @JvmOverloads constructor(
 
 
             //background src
-            btnEmptyStateSuccess.setBackgroundResource(typedArray.getResourceId(R.styleable.CustomDialog_btnSuccessBackground , TRANSPARENT))
+            btnEmptyStateSuccess.setBackgroundResource(typedArray.getResourceId(R.styleable.CustomDialog_btnOkBackground , TRANSPARENT))
             mainEmptyState.setBackgroundResource(typedArray.getResourceId(R.styleable.CustomDialog_mainCustomDialogBackground , 0))
             txtEmptyStateTitle.setBackgroundResource(typedArray.getResourceId(R.styleable.CustomDialog_txtTitleBackground , 0))
             txtEmptyStateDesc.setBackgroundResource(typedArray.getResourceId(R.styleable.CustomDialog_txtDescriptionBackground , 0))

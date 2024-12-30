@@ -17,7 +17,7 @@ android {
         minSdk = 21
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0.4"
+        versionName = "1.1.0"
         group = "com.github.M-Hosein-Developer"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
