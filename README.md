@@ -24,7 +24,7 @@ dependencies {
 [![](https://jitpack.io/v/M-Hosein-Developer/CustomEmptyState.svg)](https://jitpack.io/#M-Hosein-Developer/CustomEmptyState)
 
 ## Usage
-#XML Example for Title and Description (Single Line/Multiple Line)
+XML Example for Title and Description (Single Line/Multiple Line)
 ```
 <ir.androidcoder.customdialog.CustomEmptyState
     android:layout_width="wrap_content"
@@ -39,21 +39,21 @@ dependencies {
     app:layout_constraintTop_toTopOf="parent" />
 ```
 
-#Setting Text for Title, Description, and Button
+Setting Text for Title, Description, and Button
 ```
 app:titleText="this is title"
 app:descText="this is description"
 app:btnSuccessText="this is button"
 ```
 
-#Customizing Text Colors
+Customizing Text Colors
 ```
 app:titleTextColor="@color/blue"
 app:descTextColor="#fff000"
 app:btnSuccessTextColor="@color/white
 ```
 
-#Setting Custom Font
+Setting Custom Font
 ```
 app:fontFamily="@font/font_test_dialog"
 ```
