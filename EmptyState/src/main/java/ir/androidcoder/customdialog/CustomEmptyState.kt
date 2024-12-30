@@ -205,7 +205,7 @@ class CustomEmptyState @JvmOverloads constructor(
         mainEmptyState.visibility = if (isVisible) View.VISIBLE else View.GONE
     }//tested
 
-    fun setSuccessButtonVisibility(isVisible: Boolean) = with(binding){
+    fun setOkButtonVisibility(isVisible: Boolean) = with(binding){
         btnEmptyStateSuccess.visibility = if (isVisible) View.VISIBLE else View.GONE
     }//tested
 
