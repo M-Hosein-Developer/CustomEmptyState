@@ -209,10 +209,96 @@ customEmptyState.setDescriptionTextColor(descriptionColor = R.color.descriptionC
 customEmptyState.textButtonColor(color = R.color.buttonTextColor)
 ```
 
-Set text fon for views
+Set text font for views
+```
+customEmptyState.setTextFont(font = R.font.custom_font)
+```
 
+```
+customEmptyState.setTitleTextFont(font = R.font.title_font)
+```
 
+```
+customEmptyState.setDescriptionTextFont(font = R.font.description_font)
+```
 
+```
+customEmptyState.setButtonTextFont(font = R.font.button_font)
+```
+
+Set text size for views
+```
+customEmptyState.setTextSize(
+    titleSize = 16f,
+    descriptionSize = 14f,
+    buttonSize = 18f
+)
+```
+
+Set padding for view
+```
+customEmptyState.setPaddingView(
+    titlePadding = 10,
+    descriptionPadding = 8,
+    buttonPadding = 12,
+    imagePadding = 6,
+    lottiePadding = 4
+)
+```
+
+Set text style
+```
+customEmptyState.setTextStyle(
+    titleStyle = 1,
+    descriptionStyle = 0,
+    buttonStyle = 2
+)
+```
+
+Set background views
+```
+customEmptyState.setButtonBackground(background = R.drawable.button_background)
+```
+
+```
+customEmptyState.setTitleBackground(background = R.drawable.title_background)
+```
+
+```
+customEmptyState.setDescriptionBackground(background = R.drawable.description_background)
+```
+
+```
+customEmptyState.setMainBackground(background = R.color.mainBackground)
+```
+
+On click envent for ok button
+```
+customEmptyState.setOnOkClickListener{
+    // Handle click event
+}
+```
+
+Setup lottie animation
+```
+customEmptyState.setupLottieAnimation(
+    rawRes = R.raw.animation_file,
+    loop = true,
+    padding = 8
+)
+```
+
+Setup button ui
+```
+customEmptyState.setButtonAttribute(
+    radius = 6,
+    icon = R.drawable.ic_android_black_24dp,
+    iconSize = 50,
+    color = R.color.red
+)
+```
+
+## License
 
 
 
