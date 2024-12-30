@@ -28,9 +28,10 @@ dependencies {
 [![](https://jitpack.io/v/M-Hosein-Developer/CustomEmptyState.svg)](https://jitpack.io/#M-Hosein-Developer/CustomEmptyState)
 
 ## Usage XML
-XML Example for Title and Description (Single Line/Multiple Line)
+XML Example for Attributes
 ```
 <ir.androidcoder.customdialog.CustomEmptyState
+    android:id="@+id/customEmptyState"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:titleSingleLine="false"
@@ -118,3 +119,27 @@ app:iconButtonSize="30dp"
 ```
 
 ## Usage Kotlin
+Kotlin Example for Attributes
+
+Visibility of the Empty State UI
+```
+customEmptyState.setEmptyStateVisibility(isVisible = true)
+```
+
+Visibility of the button
+```
+customEmptyState.setOkButtonVisibility(isVisible = true)
+```
+
+Visibility of both the image and Lottie animation
+```
+customEmptyState.setImageAndLottieVisibility(isImageVisible = true, isLottieVisible = false)
+```
+
+
+
+
+
+
+
+
