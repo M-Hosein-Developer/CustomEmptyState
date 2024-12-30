@@ -10,13 +10,17 @@ A brief description of your library and its purpose. Explain why it's useful and
 ## Installation
 You can add the library to your project via Gradle:
 
+Step 1. Add the JitPack repository to your build file
 ```
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
+Step 2. Add the dependency
+```
 dependencies {
     implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.0.3'
 }
