@@ -136,10 +136,32 @@ Visibility of both the image and Lottie animation
 customEmptyState.setImageAndLottieVisibility(isImageVisible = true, isLottieVisible = false)
 ```
 
+Visibility of the title text
+```
+customEmptyState.setTitleVisibility(isVisible = true)
+```
 
+Visibility of the description text
+```
+customEmptyState.setDescriptionVisibility(isVisible = false)
+```
 
+Sets the title, description, and image for the Empty State view
+```
+customEmptyState.setEmptyState(
+    title = "Title Text",
+    description = "Description Text",
+    src = R.drawable.ic_image
+)
+```
 
-
+Updates the title and description text
+```
+customEmptyState.setTitleAndDescription(
+    title = "New Title",
+    description = "New Description"
+)
+```
 
 
 
