@@ -23,7 +23,7 @@ dependencies {
 ```
 [![](https://jitpack.io/v/M-Hosein-Developer/CustomEmptyState.svg)](https://jitpack.io/#M-Hosein-Developer/CustomEmptyState)
 
-## Usage
+## Usage XML
 XML Example for Title and Description (Single Line/Multiple Line)
 ```
 <ir.androidcoder.customdialog.CustomEmptyState
@@ -58,3 +58,59 @@ Setting Custom Font
 app:fontFamily="@font/font_test_dialog"
 ```
 
+Customizing Text Sizes
+```
+app:titleTextSize="12sp"
+app:descTextSize="20sp"
+app:btnSuccessTextSize="10sp"
+```
+
+Parent View Customization
+```
+app:cardRadius="20dp"
+app:cardElevation="20dp"
+app:cardBackgroundColor="@color/white"
+```
+
+Padding Customization
+```
+app:titlePadding="20dp"
+app:descPadding="20dp"
+app:btnSuccessPadding="20dp"
+app:imgPadding="20dp"
+```
+
+Visibility Settings
+```
+app:btnSuccessVisibility="visible"
+app:txtTitleVisibility="visible"
+app:txtDescriptionVisibility="visible"
+app:imgVisibility="visible"
+app:mainCustomEmptyStateVisibility="visible"
+```
+
+Background Customization
+```
+app:btnSuccessBackground="@color/blue"
+app:mainCustomDialogBackground="@color/blue"
+app:txtTitleBackground="@color/blue"
+app:txtDescriptionBackground="@color/blue"
+```
+
+Using Lottie Animation Instead of Image
+```
+app:autoPlay_animation="true"
+app:loop_animation="true"
+app:rawRes_animation="@raw/error"
+app:lottieVisibility="visible"
+```
+
+Button Customization
+```
+app:buttonCornerRadius="20dp"
+app:setIconButton="@drawable/ic_android_black_24dp"
+app:setIconButtonGravity="textEnd"
+app:iconButtonSize="30dp"
+```
+
+## Usage Kotlin
