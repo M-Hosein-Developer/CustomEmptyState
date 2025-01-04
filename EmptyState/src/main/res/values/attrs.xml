@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="CustomDialog">
+    <declare-styleable name="CustomEmptyState">
 
         <!--image-->
-        <attr name="src" format="integer" />
+        <attr name="es_src" format="integer" />
 
 
         <!--single and max line-->
-        <attr name="titleSingleLine" format="boolean" />
-        <attr name="descSingleLine" format="boolean" />
-        <attr name="titleMaxLine" format="integer" />
-        <attr name="descMaxLine" format="integer" />
+        <attr name="es_titleSingleLine" format="boolean" />
+        <attr name="es_descSingleLine" format="boolean" />
+        <attr name="es_titleMaxLine" format="integer" />
+        <attr name="es_descMaxLine" format="integer" />
 
 
         <!--text-->
-        <attr name="titleText" format="string" />
-        <attr name="descText" format="string" />
-        <attr name="btnOkText" format="string" />
+        <attr name="es_titleText" format="string" />
+        <attr name="es_descText" format="string" />
+        <attr name="es_btnOkText" format="string" />
 
 
         <!--text color-->
-        <attr name="titleTextColor" format="color" />
-        <attr name="descTextColor" format="color" />
-        <attr name="btnOkTextColor" format="color" />
+        <attr name="es_titleTextColor" format="color" />
+        <attr name="es_descTextColor" format="color" />
+        <attr name="es_btnOkTextColor" format="color" />
 
 
         <!--font-->
-        <attr name="fontFamily" format="string" />
+        <attr name="es_fontFamily" format="string" />
 
 
         <!--text size-->
-        <attr name="titleTextSize" format="dimension" />
-        <attr name="descTextSize" format="dimension" />
-        <attr name="btnOkTextSize" format="dimension" />
+        <attr name="es_titleTextSize" format="dimension" />
+        <attr name="es_descTextSize" format="dimension" />
+        <attr name="es_btnOkTextSize" format="dimension" />
 
         <!--card-->
-        <attr name="cardRadius" format="dimension" />
-        <attr name="cardElevation" format="dimension" />
-        <attr name="cardBackgroundColor" format="color" />
-
+        <!--<attr name="es_cardRadius" format="dimension" />
+        <attr name="es_cardElevation" format="dimension" />
+        <attr name="es_cardBackgroundColor" format="color" />
+-->
 
         <!--padding-->
-        <attr name="titlePadding" format="dimension" />
-        <attr name="descPadding" format="dimension" />
-        <attr name="btnOkPadding" format="dimension" />
-        <attr name="btnOkEndPadding" format="dimension" />
-        <attr name="imgPadding" format="dimension" />
+        <attr name="es_titlePadding" format="dimension" />
+        <attr name="es_descPadding" format="dimension" />
+        <attr name="es_btnOkPadding" format="dimension" />
+        <attr name="es_btnOkEndPadding" format="dimension" />
+        <attr name="es_imgPadding" format="dimension" />
 
 
         <!--visibility-->
-        <attr name="btnOkVisibility" format="enum">
+        <attr name="es_btnOkVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
         </attr>
 
-        <attr name="txtTitleVisibility" format="enum">
+        <attr name="es_txtTitleVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
         </attr>
 
-        <attr name="txtDescriptionVisibility" format="enum">
+        <attr name="es_txtDescriptionVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
         </attr>
 
-        <attr name="imgVisibility" format="enum">
+        <attr name="es_imgVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1"/>
         </attr>
 
-        <attr name="mainCustomEmptyStateVisibility" format="enum">
+        <attr name="es_mainCustomEmptyStateVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
@@ -101,17 +101,17 @@
 
 
         <!--background src-->
-        <attr name="btnOkBackground" format="reference" />
-        <attr name="mainCustomDialogBackground" format="reference" />
-        <attr name="txtTitleBackground" format="reference" />
-        <attr name="txtDescriptionBackground" format="reference" />
+        <attr name="es_btnOkBackground" format="reference" />
+        <attr name="es_mainCustomDialogBackground" format="reference" />
+        <attr name="es_txtTitleBackground" format="reference" />
+        <attr name="es_txtDescriptionBackground" format="reference" />
 
 
         <!--lottie-->
-        <attr name="autoPlay_animation" format="boolean"/>
-        <attr name="loop_animation" format="boolean"/>
-        <attr name="rawRes_animation" format="reference"/>
-        <attr name="lottieVisibility" format="enum">
+        <attr name="es_autoPlay_animation" format="boolean"/>
+        <attr name="es_loop_animation" format="boolean"/>
+        <attr name="es_rawRes_animation" format="reference"/>
+        <attr name="es_lottieVisibility" format="enum">
             <enum name="visible" value="0" />
             <enum name="invisible" value="1" />
             <enum name="gone" value="2" />
@@ -120,9 +120,9 @@
 
 
         <!--button-->
-        <attr name="buttonCornerRadius" format="dimension"/>
-        <attr name="setIconButton" format="reference"/>
-        <attr name="setIconButtonGravity">
+        <attr name="es_btnCornerRadius" format="dimension"/>
+        <attr name="es_setIconButton" format="reference"/>
+        <attr name="es_setIconButtonGravity">
             <flag name="start" value="0x1"/>
             <flag name="textStart" value="0x2"/>
             <flag name="end" value="0x3"/>
@@ -130,7 +130,7 @@
             <flag name="top" value="0x10"/>
             <flag name="textTop" value="0x20"/>
         </attr>
-        <attr name="iconButtonSize" format="dimension"/>
+        <attr name="es_iconButtonSize" format="dimension"/>
 
 
 

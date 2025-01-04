@@ -21,15 +21,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ir.androidcoder.customdialog.CustomEmptyState
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/customEmptyState"
-        app:buttonCornerRadius="20dp"
-        app:setIconButton="@drawable/ic_android_black_24dp"
-        app:lottieVisibility="visible"
-        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        app:cardCornerRadius="19dp"
+        app:es_btnOkVisibility="visible"
+        app:es_btnCornerRadius="14dp"
+        app:es_btnOkText="hiii"
+        app:es_btnOkBackground="@color/red"
+        app:es_lottieVisibility="visible"
+        app:es_imgVisibility="invisible"
+        app:es_setIconButton="@drawable/ic_android_black_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

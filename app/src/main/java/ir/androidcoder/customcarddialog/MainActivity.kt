@@ -1,5 +1,6 @@
 package ir.androidcoder.customcarddialog
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -30,13 +31,7 @@ class MainActivity : AppCompatActivity() {
 //        setFont()
 
 
-            binding.customEmptyState.setButtonAttribute(
-                radius = 6,
-                icon = R.drawable.ic_android_black_24dp,
-                iconSize = 50,
-                color = R.color.red
-            )
-
+            binding.customEmptyState.setCornerButton(150)
 
 
     }

@@ -16,7 +16,7 @@ android {
         minSdk = 21
 
         group = "com.github.M-Hosein-Developer"
-        version = "1.1.0"
+        version = "1.1.1"
         
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -40,7 +40,7 @@ android {
 
                     groupId = "com.github.M-Hosein-Developer"
                     artifactId = "CustomEmptyState"
-                    version = "1.1.0"
+                    version = "1.1.1"
                 }
             }
 
