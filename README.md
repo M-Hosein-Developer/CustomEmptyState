@@ -34,10 +34,10 @@ XML Example for Attributes
     android:id="@+id/customEmptyState"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:titleSingleLine="false"
-    app:descSingleLine="false"
-    app:titleMaxLine="2"
-    app:descMaxLine="3"
+    app:es_titleSingleLine="false"
+    app:es_descSingleLine="false"
+    app:es_titleMaxLine="2"
+    app:es_descMaxLine="3"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -46,21 +46,21 @@ XML Example for Attributes
 
 Setting Text for Title, Description, and Button
 ```
-app:titleText="this is title"
-app:descText="this is description"
-app:btnOkText="this is button"
+app:es_titleText="this is title"
+app:es_descText="this is description"
+app:es_btnOkText="this is button"
 ```
 
 Customizing Text Colors
 ```
-app:titleTextColor="@color/blue"
-app:descTextColor="#fff000"
-app:btnOkTextColor="@color/white
+app:es_titleTextColor="@color/blue"
+app:es_descTextColor="#fff000"
+app:es_btnOkTextColor="@color/white
 ```
 
 Setting Custom Font
 ```
-app:fontFamily="@font/font_test_dialog"
+app:es_fontFamily="@font/font_test_dialog"
 ```
 
 Customizing Text Sizes
@@ -79,43 +79,43 @@ app:cardBackgroundColor="@color/white"
 
 Padding Customization
 ```
-app:titlePadding="20dp"
-app:descPadding="20dp"
-app:btnOkPadding="20dp"
-app:imgPadding="20dp"
+app:es_titlePadding="20dp"
+app:es_descPadding="20dp"
+app:es_btnOkPadding="20dp"
+app:es_imgPadding="20dp"
 ```
 
 Visibility Settings
 ```
-app:btnOkVisibility="visible"
-app:txtTitleVisibility="visible"
-app:txtDescriptionVisibility="visible"
-app:imgVisibility="visible"
-app:mainCustomEmptyStateVisibility="visible"
+app:es_btnOkVisibility="visible"
+app:es_txtTitleVisibility="visible"
+app:es_txtDescriptionVisibility="visible"
+app:es_imgVisibility="visible"
+app:es_mainCustomEmptyStateVisibility="visible"
 ```
 
 Background Customization
 ```
-app:btnOkBackground="@color/blue"
-app:mainCustomDialogBackground="@color/blue"
-app:txtTitleBackground="@color/blue"
-app:txtDescriptionBackground="@color/blue"
+app:es_btnOkBackground="@color/blue"
+app:es_mainCustomDialogBackground="@color/blue"
+app:es_txtTitleBackground="@color/blue"
+app:es_txtDescriptionBackground="@color/blue"
 ```
 
 Using Lottie Animation Instead of Image
 ```
-app:autoPlay_animation="true"
-app:loop_animation="true"
-app:rawRes_animation="@raw/error"
-app:lottieVisibility="visible"
+app:es_autoPlay_animation="true"
+app:es_loop_animation="true"
+app:es_rawRes_animation="@raw/error"
+app:es_lottieVisibility="visible"
 ```
 
 Button Customization
 ```
-app:buttonCornerRadius="20dp"
-app:setIconButton="@drawable/ic_android_black_24dp"
-app:setIconButtonGravity="textEnd"
-app:iconButtonSize="30dp"
+app:es_buttonCornerRadius="20dp"
+app:es_setIconButton="@drawable/ic_android_black_24dp"
+app:es_setIconButtonGravity="textEnd"
+app:es_iconButtonSize="30dp"
 ```
 
 ## Usage Kotlin
@@ -257,19 +257,27 @@ customEmptyState.setTextStyle(
 
 Set background views
 ```
-customEmptyState.setButtonBackground(background = R.drawable.button_background)
+customEmptyState.setButtonBackgroundColor(background = R.color.button_background)
+
+customEmptyState.setButtonBackgroundDrawable(background = R.drawable.button_background)
 ```
 
 ```
-customEmptyState.setTitleBackground(background = R.drawable.title_background)
+customEmptyState.setTitleBackgroundColor(background = R.color.title_background)
+
+customEmptyState.setTitleBackgroundDrawable(background = R.drawable.title_background)
 ```
 
 ```
-customEmptyState.setDescriptionBackground(background = R.drawable.description_background)
+customEmptyState.setDescriptionBackgroundColor(background = R.color.description_background)
+
+customEmptyState.setDescriptionBackgroundDrawable(background = R.drawable.description_background)
 ```
 
 ```
-customEmptyState.setMainBackground(background = R.color.mainBackground)
+customEmptyState.setMainBackgroundColor(background = R.color.mainBackground)
+
+customEmptyState.setMainBackgroundDrawable(background = R.drawable.mainBackground)
 ```
 
 On click envent for ok button
