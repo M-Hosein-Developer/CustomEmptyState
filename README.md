@@ -22,7 +22,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.1.0'
+    implementation 'com.github.M-Hosein-Developer:CustomEmptyState:1.1.1'
 }
 ```
 [![](https://jitpack.io/v/M-Hosein-Developer/CustomEmptyState.svg)](https://jitpack.io/#M-Hosein-Developer/CustomEmptyState)
