@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "ir.androidcoder.customdialog"
-    compileSdk = 34
+    compileSdk = 35
 
     buildFeatures{
         viewBinding = true

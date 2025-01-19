@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ir.androidcoder.customcarddialog"
-    compileSdk = 34
+    compileSdk = 35
 
     buildFeatures{
         viewBinding = true
@@ -15,7 +15,7 @@ android {
     defaultConfig {
         applicationId = "ir.androidcoder.customcarddialog"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.1.1"
         group = "com.github.M-Hosein-Developer"
